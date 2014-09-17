@@ -20,10 +20,10 @@ Package.on_use(function (api) {
 if (Package.on_test) {
   Package.on_test(function (api) {
     if (Package.onTest) {
-      api.use(['mrt:knock-client', 'tinytest', 'test-helpers'], ['client']);
+      api.use(['mrt:knockout-client', 'tinytest', 'test-helpers'], ['client']);
     } else {
-      api.use(['knock-client', 'tinytest', 'test-helpers'], ['client']);
+      api.use(['knockout-client', 'tinytest', 'test-helpers'], ['client']);
     }
-    api.add_files('test-mrt:knock-client.js', ['client']);
+    api.add_files('test-mrt:knockout-client.js', ['client']);
   });
 }
