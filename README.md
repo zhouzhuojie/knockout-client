@@ -1,4 +1,4 @@
-knockout-client
+knockout-client [![Build Status](https://travis-ci.org/zhouzhuojie/knockout-client.svg)](https://travis-ci.org/zhouzhuojie/knockout-client)
 ==============
 
 **Knockout** is a JavaScript MVVM (a modern variant of MVC) library that makes it easier to create rich, desktop-like user interfaces with JavaScript and HTML. It uses observers to make your UI automatically stay in sync with an underlying data model, along with a powerful and extensible set of declarative bindings to enable productive development.
