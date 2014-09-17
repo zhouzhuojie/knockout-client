@@ -10,7 +10,7 @@ Meteor makes it an order of magnitude simpler and a lot more fun to build webapp
 ### Install
 
 ```bash
-mrt add knockout-client
+meteor add mrt:knockout-client
 ```
 
 ### Package Description
