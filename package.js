@@ -1,11 +1,12 @@
 Package.describe({
   summary: "Knockout Client for Meteor",
-  version: "0.1.0",
+  version: "0.1.1",
   git: "https://github.com/zhouzhuojie/knockout-client.git",
   name: "mrt:knockout-client"
 });
 
 Package.on_use(function (api) {
+  api.use('jquery@1.0.0', 'client');
   api.add_files('lib/knockout/knockout-3.1.0.debug.js', 'client');
   api.add_files('main.js', 'client');
   api.add_files('lib/knockout/knockout.mapping.js', 'client');
